@@ -2,7 +2,7 @@
 :root {
   --text_color: #2e3349;
   --grey: #6b7082;
-  --cyan: #41cbd3;
+  --cyan: #11979ef3;
   --line-color: #e8e9ec;
 }
 * {
@@ -13,9 +13,11 @@
   justify-content: center;
 }
 body {
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Kumbh Sans", 
+  sans-serif;
   background-color: var(--cyan);
   height: 100vh;
+  overflow-y: hidden;
   align-items: center;
   justify-content: center;
   background-image: url(./images/bg-pattern-top.svg),
